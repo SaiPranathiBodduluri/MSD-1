@@ -11,7 +11,7 @@ const Login = () => {
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("https://zw-backend-8jos.onrender.com/api/auth/login", {
+      const res = await axios.post("https://msd-1-1.onrender.com/api/auth/login", {
         email,
         password,
       });
