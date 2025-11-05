@@ -14,7 +14,7 @@ const Home = () => {
   // Fetch products from backend
   useEffect(() => {
     axios
-      .get("https://zw-backend-8jos.onrender.com/api/products")
+      .get("https://msd-1-1.onrender.com/api/products")
       .then((res) => setProducts(res.data))
       .catch((err) => console.error("Error fetching products:", err));
   }, []);
