@@ -22,7 +22,7 @@ const Signup = () => {
     setMessage("Submitting...");
     try {
       console.log("Signup request payload:", formData);
-      const res = await axios.post("http://localhost:5000/api/auth/signup", formData, {
+      const res = await axios.post("https://msd-1-1.onrender.com/api/auth/signup", formData, {
         headers: { "Content-Type": "application/json" },
       });
       console.log("Signup success response:", res);
