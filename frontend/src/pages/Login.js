@@ -31,7 +31,7 @@ const Login = () => {
       
       {/* Header */}
       <header style={{ textAlign: "center", marginBottom: "30px" }}>
-        <h1 style={{ color: "#2e7d32" }}>Zero Waste Grocery Shopping App</h1>
+        <h1 style={{ color: "#2e7d32" }}>Eco Basket</h1>
         <p style={{ color: "#555", fontStyle: "italic" }}>
           Buy unsold or near-expiry groceries at discounted prices. Help reduce waste and save money!
         </p>

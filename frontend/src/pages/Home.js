@@ -96,7 +96,7 @@ const Home = () => {
           <span style={{ display: "block", height: "3px", backgroundColor: "white" }}></span>
         </div>
 
-        <h2 style={{ margin: "0 auto", textAlign: "center" }}>Zero Wastage Grocery</h2>
+        <h2 style={{ margin: "0 auto", textAlign: "center" }}>Eco Basket</h2>
 
         <button
           onClick={handleLogout}
@@ -307,7 +307,7 @@ const Home = () => {
           <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram" style={{ width: "30px" }} />
           <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" style={{ width: "30px" }} />
         </div>
-        <p style={{ marginTop: "10px", fontSize: "14px" }}>© 2025 Zero Wastage Grocery | All rights reserved.</p>
+        <p style={{ marginTop: "10px", fontSize: "14px" }}>© 2025 Eco Basket | All rights reserved.</p>
       </footer>
     </div>
   );

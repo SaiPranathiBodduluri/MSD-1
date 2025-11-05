@@ -29,7 +29,7 @@ app.use("/api/products", productRoutes); // register products route
 
 // Test route
 app.get("/", (req, res) => {
-  res.send("Zero Wastage Grocery Backend is running...");
+  res.send("Eco Basket is running...");
 });
 
 // Connect to MongoDB
